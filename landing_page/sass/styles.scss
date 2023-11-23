@@ -420,12 +420,16 @@ body{
         }
         .sec6{
             margin: 0;
-            background-color: #fff;
+            background-color: #a41b1b;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
             align-items: flex-start;
             padding: 1.7rem;
+            .image-wrapper img{
+                flex: 1 1 23rem;
+                max-width: 100%;
+            }
             .sec6__text{
                 flex: 1 1 23rem;
                 margin: 2rem 0;
@@ -437,10 +441,6 @@ body{
                 p{
                     margin: 1rem 0;
                     font-size: .9rem;
-                }
-                img{
-                    flex: 1 1 23rem;
-                    max-width: 100%;
                 }
             }
         }     
